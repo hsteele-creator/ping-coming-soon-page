@@ -45,7 +45,6 @@
     width: 100%;
     border-radius: 18px;
     padding: 10px;
-    margin: 10px 0;
     background-color: hsl(223, 87%, 63%);
     border: none;
     color: white;
@@ -53,4 +52,36 @@
 
 #notify:hover {
     cursor: pointer;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.icons svg {
+    width: 10px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+@media(min-width: 800px) {
+
+    .container {
+        width: 580px;
+    }
+
+    .signup {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .email {
+        width: 58%;
+
+    }
+    .notify {
+        width: 38%;
+    }
 }
