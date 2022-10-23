@@ -66,8 +66,16 @@
     margin-bottom: 10px;
 }
 
-input:invalid {
-    border: red;
+#email:invalid {
+    border: 1px solid red;
+}
+
+#provide-email {
+    color: red;
+}
+
+.hidden {
+    display: none;
 }
 
 @media(min-width: 600px) {

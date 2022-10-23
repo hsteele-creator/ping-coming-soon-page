@@ -1,8 +1,9 @@
 const formInput = document.querySelector("#subscribe")
 const emailInput = document.querySelector(".email")
+const provideEmailMsg = document.querySelector("#provide-email")
 
 formInput.addEventListener("submit", function(e) {
     e.preventDefault()
-    console.log(emailInput.value)
+    provideEmailMsg.classList.toggle("hidden")
 
 })
