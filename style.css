@@ -66,22 +66,27 @@
     margin-bottom: 10px;
 }
 
-@media(min-width: 800px) {
+input:invalid {
+    border: red;
+}
+
+@media(min-width: 600px) {
 
     .container {
-        width: 580px;
+        width: 600px;
     }
 
-    .signup {
-        display: flex;
-        justify-content: space-around;
-    }
+.signup {
+    display: flex;
+    justify-content: space-between;
+}
 
-    .email {
-        width: 58%;
+.notify {
+    width: 34%;
+}
 
-    }
-    .notify {
-        width: 38%;
-    }
+.email {
+    width: 64%;
+}
+
 }
